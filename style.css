@@ -508,7 +508,7 @@ padding-right: 1.1rem;
     position:absolute;
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 800px) {
   .parallax {
     background-attachment: scroll;
 		background-position: center center;
@@ -516,20 +516,20 @@ padding-right: 1.1rem;
 }
 
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 800px) {
   .parallax1 {
     background-attachment: scroll;
 		background-position: center center;
   }
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 800px) {
   .parallax2 {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 800px) {
   .parallax3 {
     background-attachment: scroll;
   }
