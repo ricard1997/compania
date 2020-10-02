@@ -414,7 +414,7 @@ padding-right: 1.1rem;
   /* Create the parallax scrolling effect */
 
   background-attachment: fixed;
-  background-position: center 100px;
+  background-position: center 80px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -429,7 +429,7 @@ padding-right: 1.1rem;
   /* Create the parallax scrolling effect */
 
   background-attachment: fixed;
-  background-position: center 100px;
+  background-position: center 80px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -438,6 +438,7 @@ padding-right: 1.1rem;
 .parallax2 {
   /* The image used */
   background-image: url("asd.png");
+	background-color: #253c78:
 
   /* Set a specific height */
   min-height: 600px;
@@ -452,6 +453,7 @@ padding-right: 1.1rem;
 
 .parallax3 {
   /* The image used */
+
   background-image: url("guard.jpg");
 
   /* Set a specific height */
@@ -512,6 +514,7 @@ padding-right: 1.1rem;
   .parallax {
     background-attachment: scroll;
 		background-position: center center;
+
   }
 }
 
@@ -531,6 +534,7 @@ padding-right: 1.1rem;
 
 @media only screen and (max-device-width: 800px) {
   .parallax3 {
+
     background-attachment: scroll;
   }
 }
