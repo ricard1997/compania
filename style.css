@@ -209,7 +209,7 @@ body{
 
   /*font-variant: small-caps;*/
 	color:#ffa630;
-  font-family:Helvetica;
+  font-family: Helvetica;
 }
 
 .cajder{
@@ -449,8 +449,8 @@ padding-right: 1.1rem;
 
 .parallax2 {
   /* The image used */
-  background-image: url("asd.png");
-	background-color: #253c78:
+  background-image: url("asdfgh.png");
+
 
   /* Set a specific height */
   min-height: 600px;
@@ -525,7 +525,7 @@ padding-right: 1.1rem;
 @media only screen and (max-device-width: 800px) {
   .parallax {
     background-attachment: scroll;
-		background-position: center center;
+		background-position: -600px center;
 
   }
 }
@@ -534,13 +534,14 @@ padding-right: 1.1rem;
 @media only screen and (max-device-width: 800px) {
   .parallax1 {
     background-attachment: scroll;
-		background-position: center center;
+		background-position: -150px center;
   }
 }
 
 @media only screen and (max-device-width: 800px) {
   .parallax2 {
     background-attachment: scroll;
+		background-position: center center;
   }
 }
 
