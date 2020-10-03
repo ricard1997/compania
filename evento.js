@@ -5,6 +5,5 @@ window.addEventListener('scroll', function() {
 
   if (posicionObj1 < tamañoDePantalla) {
     animacion.style.animation = 'mover 1s ease-out'
-  }
-
+  } 
 })

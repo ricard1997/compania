@@ -522,6 +522,28 @@ padding-right: 1.1rem;
     position:absolute;
 }
 
+.imgresponsive {
+padding-left: 10px;
+padding-right: 10px;
+	height:80%;
+	width:80%;
+	text-align: center;
+
+
+}
+
+.hey{
+padding: 0px;
+}
+
+
+@media only screen and (max-device-width: 800px) {
+  .hey img{
+		width: 100px;
+		height: auto;
+  }
+}
+
 @media only screen and (max-device-width: 800px) {
   .parallax {
     background-attachment: scroll;
@@ -636,4 +658,63 @@ height: 20px;
 .preload-finish{
 	opacity: 0;
 	pointer-events: none;
+}
+
+
+
+.icon-bar {
+  position: fixed;
+  bottom: 0%;
+	z-index: 2;
+
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: flex;
+  text-align: center;
+  padding: 2vh;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+
+
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.whatsapp {
+  background: #00bb2d ;
+  color: white;
+
+
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
 }
